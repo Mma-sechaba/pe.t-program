@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        
+        <h1>Welcome to PE.T PROGRAM!</h1>
+        <a href="../index.html">Home</a>
+        <a href="/Pages/about.html">About us</a>
+        <a href="/Pages/service.html">Service</a>
+        <a href="/Pages/contact.html">Contact us</a>
+        <a href="/Pages/products.html">Products</a>
+       <hr>
+  </header>
+
+  <h1>Submit an Enquiry</h1>
+  <p>If you have questions about our peer tutoring services, please fill out the form below.</p>
+
+  <form action="submit_enquiry.php" method="post">
+    <label for="name">Full Name:</label><br />
+    <input type="text" id="name" name="name" required /><br /><br />
+
+    <label for="email">Email Address:</label><br />
+    <input type="email" id="email" name="email" required /><br /><br />
+
+    <label for="subject">Subject:</label><br />
+    <input type="text" id="subject" name="subject" required /><br /><br />
+
+    <label for="message">Enquiry Details:</label><br />
+    <textarea id="message" name="message" rows="5" required></textarea><br /><br />
+
+    <input type="submit" value="Submit Enquiry" />
+  </form>
+
+
+</body>
+</html>
